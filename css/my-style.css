@@ -1,3 +1,70 @@
-.ex-1-square{
-    animation-name:colore ;
+
+
+.ex-1-square:hover{
+    background-color: red;
+    transition: 2s;
+}
+
+.ex-2-square:active{
+    width: 500px;
+    transition: 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50px;
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+    transition: 2s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter:sepia(0.7);
+    filter: grayscale(0.5);
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter:sepia(0.7);
+    filter: grayscale(0.5);
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    transition: 2s;
+    filter:sepia(0.7);
+    filter: grayscale(0.5);
+    border-radius: 15px;
+    width: 600px;
+}
+
+.ex-10-icon{
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframesexample {
+    transform: rotate(360deg);
 }
