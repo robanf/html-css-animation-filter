@@ -114,11 +114,12 @@
 }
 
 @keyframes ex-13-top{
-    0%{}
-    25%{left: 100%; top: 0%}
+    0%{top: -10px;left: 10%;}
+    30%{left: 100%; top:-10px}
     50%{top: 100%;left: 100%; }
-    75%{right: 100%; top: 100%;}
-    100%{bottom:100%;right: ;: 0%;}
+    75%{left: -10px; top: 100%;}
+    85%{left: -10px; top: -10px;}
+    100%{top: -10px;left: 10%;}
 }
 
 .ex-13-bottom-white{
